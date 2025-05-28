@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: nodeapp
-        image: donfortune1/nodeapp:1.0 #personal image in private docker registry
+        image: donfortune1/nodeapp:1.2 #personal image in private docker registry
         ports:
         - containerPort: 3000
         resources:
